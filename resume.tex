@@ -1,0 +1,315 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+% \usepackage{ebgaramond}
+% \usepackage{cochineal}
+\usepackage{kpfonts}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+\usepackage{fontawesome}
+\usepackage{academicons}
+\usepackage[dvipsnames]{xcolor}
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+\usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\footskip}{6pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-2pt}\scshape\raggedright\fontsize{16}{18}\selectfont
+}{}{0em}{}[\color{black}\titlerule \vspace{-2pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+\newcommand{\resumeSubheadingTwo}[2]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{[#2]} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{#2} \\
+      \small#3 & \small #4 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumePubHeading}[2]{
+  \vspace{1pt}\item
+      \textbf{[#1]} #2  \\
+    \vspace{1pt}
+}
+
+\newcommand{\resumePreprintHeading}[1]{
+  \vspace{-2pt}\item
+       #1  \\
+    \vspace{-7pt}
+}
+
+\newcommand{\resumeSubheadingSix}[6]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \small#3 & \small #4 \\
+      \small#5 & \small #6 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubheadingEight}[8]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \small#3 & \small #4 \\
+      \small#5 & \small #6 \\
+      \small#7 & \small #8 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-3pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+\begin{center}
+    \textbf{\Huge \scshape Yuxuan Yin} \\ \vspace{1pt}
+    %\small 123-456-7890 $|$
+    \href{mailto:y\_yin@ucsb.edu}{\faEnvelope\ y\_yin@ucsb.edu} $|$
+    \href{https://linkedin.com/in/yuxuan-yin-793777237/}{\faLinkedinSquare\ LinkedIn} $|$
+    % \href{https://zheng95z.github.io/}{\underline{zheng95z.github.io}} $|$
+    \href{https://scholar.google.com/citations?hl=en&authuser=1&user=g6SyvToAAAAJ}{\faGoogle\ Google Scholar} $|$
+    \href{callto:+18056371800}{\faMobile\ (+1) 805-637-1800} % $|$
+    % {\faMapMarker\ Goleta, CA, 93117}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+   \resumeSubheading
+      {University of California, Santa Barbara, USA}{Sep. 2021 -- \quad\quad\quad\quad\ \ }
+      {Doctor of Philosophy in Electrical and Computer Engineering}{Advisor: Prof. Peng Li \href{https://scholar.google.com/citations?user=QYQUS7gAAAAJ\&hl=en\&authuser=2}{[\faGoogle]}}
+    \vspace{4pt}\resumeSubheading
+      {Tsinghua University, Beijing, China}{Aug. 2016 -- Jun. 2020}
+      {Bachelor of Engineering in Electronic Engineering \& Bachelor of Science in Mathematics}{}
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Internship Experience}
+  \resumeSubHeadingListStart
+  \resumeSubheading
+        {Software Engineering Intern, Google, Sunnyvale, California}{Jun. 2025 -- Sep. 2025}
+      {Research Topic: Large language models for cloud jobs' resource and runtime prediction}{Mentor: Shengke Zhou \href{https://www.linkedin.com/in/shengke-zhou/}{[\faLinkedinSquare]}}
+  \resumeSubheading
+        {AI Research Intern, NXP Automotive Processing, Austin, Texas}{Jun. 2024 -- Sep. 2024}
+      {Research Topic: Conformal prediction for time series forecasting of PCB board aging}{Mentor: Chen He \href{https://www.linkedin.com/in/chen-he-119a5b3/}{[\faLinkedinSquare]}}
+    \resumeSubheading
+      {AI Research Intern, NXP Automotive Processing, Austin, Texas}{Jun. 2023 -- Sep. 2023}
+      {Research Topic: Reliable interval prediction for chip performance}{Mentor: Chen He \href{https://www.linkedin.com/in/chen-he-119a5b3/}{[\faLinkedinSquare]}}
+
+
+  \resumeSubHeadingListEnd
+
+
+\section{Summary}
+\begin{itemize}[leftmargin=0.14in]
+    \setlength\itemsep{-0.5em}
+    \item Ph.D. researcher in ML and agentic AI with hands-on experience building and evaluating LLM systems for real-world tasks, including long-context modeling, RAG-style reasoning, post-training (LoRA/finetuning).
+    \item Strong foundation in reliable machine learning and decision-making under uncertainty, with published work in semi-supervised learning, Bayesian optimization, and conformal prediction at venues such as ICML, AAAI, DAC, and ICCAD.
+\end{itemize}
+
+
+%-----------PROJECTS-----------
+\section{Selected Projects}
+
+\subsection*{I. Agentic AI}
+  \resumeSubHeadingListStart
+    \resumeSubheadingTwo
+      {1. LLMs for Cloud Jobs' Resource and Runtime Prediction}{Under Review}
+      \resumeItemListStart
+        \resumeItem{Built a LoRA-based supervised fine-tuning pipeline for predicting cloud-job resource and runtime requirements from job metadata, and improved numeric reliability with scientific-notation formatting and constrained decoding.}
+      \resumeItemListEnd
+    \resumeSubheadingTwo
+      {2. Rotary Structural Embedding for Long-Context Understanding}{Ongoing}
+      \resumeItemListStart
+        \resumeItem{Designed a training-free extension to RoPE that learns per-chunk rotary angle adjustments from inter-chunk correlations, improving long-context reasoning quality on RAG and multi-turn dialogue settings.}
+      \resumeItemListEnd
+    \resumeSubheadingTwo
+      {3. Analog Design Bayesian Optimization with In-Context Learning of Large Language Models}{ICCAD' 24}
+      \resumeItemListStart
+        \resumeItem{Developed a self-evolving LLM+BO agentic framework for analog circuit parameter optimization, combining LLM prior knowledge and in-context adaptation with the sample efficiency and rigor of Bayesian optimization.}
+      \resumeItemListEnd
+    \resumeSubheadingTwo
+      {4. Graph-based Uncertainty Quantification of LLMs}{Under Review}
+      \resumeItemListStart
+        \resumeItem{Proposed a graph-based alignment method for uncertainty estimation in long-form LLM outputs by representing generations as fact graphs and quantifying semantic and structural disagreement.}
+      \resumeItemListEnd
+    % TSBO
+    \resumeSubheadingTwo
+      {5. High-Dimensional Bayesian Optimization with SSL and Unlabeled Sampling}{ICML' 24}
+      \resumeItemListStart
+        \resumeItem{Developed TSBO, a semi-supervised Bayesian optimization framework for data-efficient sequential design that selects high-value unlabeled samples and generates calibrated pseudo-labels via teacher-student feedback, achieving SOTA with up to 364.2x fewer labeled samples.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+% \subsection*{II. Semi-Supervised Learning (SSL)}
+%   \resumeSubHeadingListStart
+%     % TaMatch
+%     \resumeSubheadingTwo
+%       {1. Mitigation of Confirmation Bias in SSL: A Debiased Training Perspective}{Under Review}
+%       \resumeItemListStart
+%         \resumeItem{Addressed confirmation bias amplification in pseudo-label-based SSL algorithms by proposing a dynamic reweighting strategy based on learning status. This method balances the learning pace between easy and difficult classes, achieving the highest average accuracy across various challenging balanced and long-tail SSL datasets.}
+%       \resumeItemListEnd
+%   \resumeSubHeadingListEnd
+
+\subsection*{II. Uncertainty Quantification}
+  \resumeSubHeadingListStart
+    \resumeSubheadingTwo
+      {1. Graph-based Uncertainty Quantification of LLMs}{Under Review}
+      \resumeItemListStart
+        \resumeItem{Introduced a graph-based alignment framework for quantifying uncertainty in long-form LLM generations by modeling atomic facts and measuring semantic and structural inconsistencies.}
+      \resumeItemListEnd
+    \resumeSubheadingTwo
+      {2. Data-Efficient Interval Prediction for Chip Performance Under Distribution Shifts}{DAC' 24}
+      \resumeItemListStart
+        \resumeItem{Proposed Calibrated Weighted CQR (CWCQR), a distribution-free interval prediction method with coverage guarantees under shift; on a 16nm automotive chip task, reduced interval length by 60\% at 90\% target coverage versus sigma-based baselines.}
+      \resumeItemListEnd
+    \resumeSubheadingTwo
+      {3. Reliable Interval Prediction of Chip Performance via Conformalized Quantile Regression}{DATE' 24}
+      \resumeItemListStart
+        \resumeItem{Applied Conformalized Quantile Regression with a CatBoost predictor and on-chip monitors for reliable interval estimation in semiconductor manufacturing, achieving SOTA accuracy and data efficiency on a 5nm chip task.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------Publications-----------
+\section{Publications}
+  \resumeSubHeadingListStart
+  \resumePubHeading{ITC' 25}
+      {\textbf{Yuxuan Yin}, Rebecca Chen, Boxun Xu, Chen He, Peng Li. Transfer Learning for Minimum Operating Voltage Prediction in Advanced Technology Nodes: Leveraging Legacy Data and Silicon Odometer Sensing\ \href{https://arxiv.org/abs/2509.00035}{\textcolor{RawSienna}{[paper]}}}
+  \resumePubHeading{VTS' 25}
+      {\textbf{Yuxuan Yin}, Rebecca Chen, Chen He, Peng Li. Reliable Board-Level Degradation Prediction with Monotonic Segmented Regression under Noisy Measurement\ \href{https://ieeexplore.ieee.org/abstract/document/11022944}{\textcolor{RawSienna}{[paper]}}}
+  \resumePubHeading{VTS' 25}
+      {\textbf{Yuxuan Yin}, Rebecca Chen, Chen He, Peng Li. Data-Efficient Prediction of Minimum Operating Voltage via Inter- and Intra-Wafer Variation Alignment\ \href{https://arxiv.org/abs/2408.06254}{\textcolor{RawSienna}{[paper]}}}
+  \resumePubHeading{ISCA' 25}
+      {Boxun Xu, \textbf{Yuxuan Yin}, Vikram Iyer, Peng Li. Bishop: Sparsified Bundling Spiking Transformers on Heterogeneous Cores with Error-Constrained Pruning\ \href{https://dl.acm.org/doi/full/10.1145/3695053.3731063}{\textcolor{RawSienna}{[paper]}}}
+  \resumePubHeading{ICCAD' 24}
+      {\textbf{Yuxuan Yin}*, Yu Wang*, Boxun Xu, Peng Li. ADO-LLM: Analog Design  Bayesian Optimization with In-Context Learning of Large Language Models \ \href{https://dl.acm.org/doi/abs/10.1145/3676536.3676816}{\textcolor{RawSienna}{[paper]}}}
+  \resumePubHeading{ICML' 24}
+      {\textbf{Yuxuan Yin}, Yu Wang, Peng Li. High-dimensional Bayesian Optimization via Semi-supervised Learning with Optimized Unlabeled Data Sampling (\textbf{Spotlight})\ \href{https://proceedings.mlr.press/v235/yin24d.html}{\textcolor{RawSienna}{[paper]}}}
+  \resumePubHeading{DAC' 24}
+      {\textbf{Yuxuan Yin}, Rebecca Chen, Chen He, Peng Li. Data-Efficient Conformalized Interval Prediction of Minimum Operating Voltage Capturing Process Variations\ \href{https://dl.acm.org/doi/abs/10.1145/3649329.3657338}{\textcolor{RawSienna}{[paper]}}}
+  \resumePubHeading{DATE' 24}
+      {\textbf{Yuxuan Yin}, Xiaoxiao Wang, Rebecca Chen, Chen He, Peng Li. Reliable Interval Prediction of Minimum Operating Voltage Based on On-chip Monitors via  Conformalized Quantile Regression\ \href{https://ieeexplore.ieee.org/abstract/document/10546601}{\textcolor{RawSienna}{[paper]}}}
+  \resumePubHeading{AAAI' 24}
+      {Yu Wang, \textbf{Yuxuan Yin}, Karthik Suryanarayana, Jan Drgona, Malachi Schram, Mahantesh Halappanavar, Frank Liu, Peng Li. Semi-Supervised Learning of Dynamical Systems with Neural Ordinary Differential Equations: A Teacher-Student Model Approach\ \href{https://ojs.aaai.org/index.php/AAAI/article/view/29498}{\textcolor{RawSienna}{[paper]}}}
+  \resumePubHeading{ITC' 23}
+      {\textbf{Yuxuan Yin}, Rebecca Chen, Chen He, Peng Li. Domain-Specific Machine Learning based Minimum Operating Voltage Prediction using On-Chip Monitor Data\ \href{https://ieeexplore.ieee.org/abstract/document/10351099}{\textcolor{RawSienna}{[paper]}}}
+  \resumePubHeading{IMWUT' 21}
+      {Habiba Farrukh, Tinghan Yang, Hanwen Xu, \textbf{Yuxuan Yin}, He Wang, Z Berkay Celik. S3: Side-Channel Attack on Stylus Pencil through Sensors\ \href{https://dl.acm.org/doi/abs/10.1145/3448085}{\textcolor{RawSienna}{[paper]}}}
+
+  \resumeSubHeadingListEnd
+
+
+\section{Preprints}
+  \resumeSubHeadingListStart
+  \resumePubHeading{Arxiv}
+  {\textbf{Yuxuan Yin}, Shengke Zhou, Yunjie Zhang, Ajay Mohindra, Boxun Xu, Peng Li. Large Language Models for EDA Cloud Job Resource and Lifetime Prediction\ \href{https://arxiv.org/abs/2512.19701}{\textcolor{RawSienna}{[paper]}}}
+  \resumePubHeading{Arxiv}
+      {\textbf{Yuxuan Yin*}, Yu Wang*, Peng Li. Towards the Mitigation of Confirmation Bias in Semi-supervised Learning: a Debiased Training Perspective\ \href{https://arxiv.org/abs/2412.05540}{\textcolor{RawSienna}{[paper]}}}
+
+  % \resumePubHeading{Arxiv}
+  %     {Boxun Xu, Hejia Geng, \textbf{Yuxuan Yin}, Peng Li. DISTA: Denoising Spiking Transformer with Intrinsic Plasticity and Spatiotemporal Attention}
+
+  \resumeSubHeadingListEnd
+
+
+%
+%
+%-----------PROGRAMMING SKILLS-----------
+% \section{Technical Skills}
+%  \begin{itemize}[leftmargin=0.15in, label={}]
+%     \small{\item{
+%      \textbf{Programming Languages}{: C/C++, Python} \\
+%      \textbf{Softwares/Platforms/Libraries}{: Unity, Unreal Engine 4, PBRT, Mitsuba, OptiX, CUDA, PyTorch, TensorFlow} \\
+%      \textbf{Research Tools}{: LaTex, Adobe Products (Photoshop, Illustrator, Premiere, etc.), Blender} \\
+%     }}
+%  \end{itemize}
+
+%-------------------------------------------
+\end{document}

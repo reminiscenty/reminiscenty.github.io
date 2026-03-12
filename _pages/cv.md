@@ -9,37 +9,26 @@ redirect_from:
 
 {% include base_path %}
 
+**Download:** [Resume (PDF)](/files/resume.pdf)
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D. in Electrical and Computer Engineering, University of California, Santa Barbara, 2021 -- present (Advisor: Prof. Peng Li)
+* B.E. in Electronic Engineering & B.S. in Mathematics, Tsinghua University, Beijing, 2016 -- 2020
 
-Work experience
+Internship Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Summer 2025: Software Engineering Intern, Google, Sunnyvale, CA
+  * Research Topic: Large language models for cloud jobs' resource and runtime prediction
+  * Mentor: Shengke Zhou
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Summer 2024: AI Research Intern, NXP Automotive Processing, Austin, TX
+  * Research Topic: Conformal prediction for time series forecasting of PCB board aging
+  * Mentor: Chen He
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Summer 2023: AI Research Intern, NXP Automotive Processing, Austin, TX
+  * Research Topic: Reliable interval prediction for chip performance
+  * Mentor: Chen He
 
 Publications
 ======
@@ -58,7 +47,3 @@ Teaching
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
