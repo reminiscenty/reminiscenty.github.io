@@ -10,13 +10,12 @@ redirect_from:
 {% include base_path %}
 
 
-Hi, I'm Yuxuan Yin! I am a Ph.D. in Electrical and Computer Engineering at UC Santa Barbara, where I am advised by Prof. Peng Li. Prior to joining UCSB, I earned my Bachelor in Electronic Engineering and Mathematics from Tsinghua University.
+Hi, I'm Yuxuan Yin, a Ph.D. candidate in Electrical and Computer Engineering at UC Santa Barbara, advised by [Prof. Peng Li](https://scholar.google.com/citations?user=QYQUS7gAAAAJ&hl=en&authuser=2). I received my B.E. in Electronic Engineering and B.S. in Mathematics from Tsinghua University.
 
-My research focuses on Agentic AI and deep learning for real-world applications. I have hand-on experience of self-evolving through feedback, long-context modeling, post-training, and uncertainty quantifications. My research has been published in leading academic venues, including ICML, AAAI, DAC, and ICCAD.
-
+My research spans agentic AI and reliable deep learning for real-world applications, with hands-on experience in LLM post-training, long-context modeling, and uncertainty quantification. I am the lead author of [ADO-LLM](https://dl.acm.org/doi/abs/10.1145/3676536.3676816), the first LLM-driven agent for automated analog circuit sizing. My work has appeared at ICML, AAAI, ICCAD, DAC, and ISCA.
 
 ---
-📢 I am currently on the job market and actively seeking full-time opportunities! I am looking for roles where I can leverage my foundation in reliable machine learning and hands-on LLM experience. Please feel free to reach out to me at y_yin at ucsb dot edu.
+📢 I am on the job market and actively seeking full-time opportunities. I am looking for roles where I can leverage my expertise in reliable ML and LLM systems. Feel free to reach out at y_yin [at] ucsb [dot] edu.
 
 
 ## Internship Experience
@@ -39,8 +38,8 @@ My research focuses on Agentic AI and deep learning for real-world applications.
   {% if post.category == "manuscripts" %}
 <div style="display: flex; gap: 1em; margin-bottom: 1.5em; align-items: flex-start;">
   <img src="{% if post.header.teaser %}{{ post.header.teaser | prepend: '/images/' | prepend: base_path }}{% else %}{{ '/images/profile.png' | prepend: base_path }}{% endif %}" alt="" style="width: 240px; height: 240px; object-fit: cover; flex-shrink: 0; border-radius: 4px;">
-  <div>
-    <strong>{% if post.link %}<a href="{{ post.link }}">{{ post.title }}</a>{% else %}{{ post.title }}{% endif %}</strong><br>
+  <div style="font-size: 0.9em;">
+    <strong>{{ post.title }}</strong><br>
     {{ post.citation }}{% if post.link %} <a href="{{ post.link }}">[paper]</a>{% endif %}
   </div>
 </div>
@@ -53,8 +52,8 @@ My research focuses on Agentic AI and deep learning for real-world applications.
   {% if post.category == "conferences" %}
 <div style="display: flex; gap: 1em; margin-bottom: 1.5em; align-items: flex-start;">
   <img src="{% if post.header.teaser %}{{ post.header.teaser | prepend: '/images/' | prepend: base_path }}{% else %}{{ '/images/profile.png' | prepend: base_path }}{% endif %}" alt="" style="width: 240px; height: 240px; object-fit: cover; flex-shrink: 0; border-radius: 4px;">
-  <div>
-    <strong>{% if post.link %}<a href="{{ post.link }}">{{ post.title }}</a>{% else %}{{ post.title }}{% endif %}</strong><br>
+  <div style="font-size: 0.9em;">
+    <strong>{{ post.title }}</strong><br>
     {{ post.citation }}{% if post.link %} <a href="{{ post.link }}">[paper]</a>{% endif %}
   </div>
 </div>
