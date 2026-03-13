@@ -2,7 +2,7 @@
 title: "ADO-LLM: Analog Design Bayesian Optimization with In-Context Learning of Large Language Models"
 collection: publications
 header:
-  teaser: pub-iccad-2024.svg
+  teaser: pub-iccad-2024.png
 category: conferences
 permalink: /publication/2024-iccad-ado-llm
 date: 2024-01-01

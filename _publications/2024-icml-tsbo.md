@@ -2,7 +2,7 @@
 title: "High-dimensional Bayesian Optimization via Semi-supervised Learning with Optimized Unlabeled Data Sampling (Spotlight)"
 collection: publications
 header:
-  teaser: pub-icml-2024.svg
+  teaser: pub-icml-2024.png
 category: conferences
 permalink: /publication/2024-icml-tsbo
 date: 2024-01-01

@@ -2,7 +2,7 @@
 title: "Domain-Specific Machine Learning based Minimum Operating Voltage Prediction using On-Chip Monitor Data"
 collection: publications
 header:
-  teaser: pub-itc-2023.svg
+  teaser: pub-itc-2023.png
 category: conferences
 permalink: /publication/2023-itc-mov-prediction
 date: 2023-01-01

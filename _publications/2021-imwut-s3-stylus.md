@@ -2,7 +2,7 @@
 title: "S3: Side-Channel Attack on Stylus Pencil through Sensors"
 collection: publications
 header:
-  teaser: pub-imwut-2021.svg
+  teaser: pub-imwut-2021.png
 category: conferences
 permalink: /publication/2021-imwut-s3-stylus
 date: 2021-01-01

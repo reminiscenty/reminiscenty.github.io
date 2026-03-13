@@ -2,7 +2,7 @@
 title: "Data-Efficient Conformalized Interval Prediction of Minimum Operating Voltage Capturing Process Variations"
 collection: publications
 header:
-  teaser: pub-dac-2024.svg
+  teaser: pub-dac-2024.png
 category: conferences
 permalink: /publication/2024-dac-interval-prediction
 date: 2024-01-01

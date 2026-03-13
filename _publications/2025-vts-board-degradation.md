@@ -2,7 +2,7 @@
 title: "Reliable Board-Level Degradation Prediction with Monotonic Segmented Regression under Noisy Measurement"
 collection: publications
 header:
-  teaser: pub-vts-2025-board.svg
+  teaser: pub-vts-2025-board.png
 category: conferences
 permalink: /publication/2025-vts-board-degradation
 date: 2025-01-01

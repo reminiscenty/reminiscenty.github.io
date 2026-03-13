@@ -2,7 +2,7 @@
 title: "Large Language Models for EDA Cloud Job Resource and Lifetime Prediction"
 collection: publications
 header:
-  teaser: pub-arxiv-llm-cloud.svg
+  teaser: pub-arxiv-llm-cloud.png
 category: manuscripts
 permalink: /publication/2024-arxiv-llm-cloud-jobs
 date: 2024-12-01

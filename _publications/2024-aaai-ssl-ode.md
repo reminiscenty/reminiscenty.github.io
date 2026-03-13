@@ -2,7 +2,7 @@
 title: "Semi-Supervised Learning of Dynamical Systems with Neural Ordinary Differential Equations: A Teacher-Student Model Approach"
 collection: publications
 header:
-  teaser: pub-aaai-2024.svg
+  teaser: pub-aaai-2024.png
 category: conferences
 permalink: /publication/2024-aaai-ssl-ode
 date: 2024-01-01

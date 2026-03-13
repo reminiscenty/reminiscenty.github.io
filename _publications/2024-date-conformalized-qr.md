@@ -2,7 +2,7 @@
 title: "Reliable Interval Prediction of Minimum Operating Voltage Based on On-chip Monitors via Conformalized Quantile Regression"
 collection: publications
 header:
-  teaser: pub-date-2024.svg
+  teaser: pub-date-2024.png
 category: conferences
 permalink: /publication/2024-date-conformalized-qr
 date: 2024-01-01

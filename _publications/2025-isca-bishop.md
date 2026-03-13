@@ -2,7 +2,7 @@
 title: "Bishop: Sparsified Bundling Spiking Transformers on Heterogeneous Cores with Error-Constrained Pruning"
 collection: publications
 header:
-  teaser: pub-isca-2025.svg
+  teaser: pub-isca-2025.png
 category: conferences
 permalink: /publication/2025-isca-bishop
 date: 2025-01-01

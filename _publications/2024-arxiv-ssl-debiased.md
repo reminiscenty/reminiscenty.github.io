@@ -2,7 +2,7 @@
 title: "Towards the Mitigation of Confirmation Bias in Semi-supervised Learning: a Debiased Training Perspective"
 collection: publications
 header:
-  teaser: pub-arxiv-ssl-debiased.svg
+  teaser: pub-arxiv-ssl-debiased.png
 category: manuscripts
 permalink: /publication/2024-arxiv-ssl-debiased
 date: 2024-12-01
