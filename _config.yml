@@ -26,8 +26,8 @@ author:
   avatar           : "profile.png"
   name             : "Yuxuan Yin"
   pronouns         : # example: "she/her"  
-  bio              : "Ph.D. researcher in ML and agentic AI with hands-on experience building and evaluating LLM systems for real-world tasks."
-  location         : "Santa Barbara, CA"
+  bio              : "Ph.D. in ML and agentic AI with hands-on experience building and evaluating LLM systems for real-world tasks."
+  location         : #
   employer         : "UC Santa Barbara"
   uri              : # URL
   email            : "y_yin@ucsb.edu" 
