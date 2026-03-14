@@ -19,14 +19,21 @@ My research spans agentic AI and reliable deep learning for real-world applicati
 
 
 ## Internship Experience
-* Summer 2025: Software Engineering Intern, Google Cloud
-  * Large language models for cloud jobs' resource and runtime prediction
 
-* Summer 2024: AI Research Intern, NXP Automotive Processing
-  * Conformal prediction for time series forecasting of PCB board aging
+<div style="margin-bottom: 0.8em;">
+  <span style="font-size: 1em;"><strong>Software Engineering Intern</strong> &nbsp;·&nbsp; Google Cloud &nbsp;·&nbsp; <span style="color: #888;">Summer 2025</span></span><br>
+  <span style="font-size: 0.85em; color: #555;">Large language models for cloud jobs' resource and runtime prediction</span>
+</div>
 
-* Summer 2023: AI Research Intern, NXP Automotive Processing
-  * Reliable interval prediction for chip performance
+<div style="margin-bottom: 0.8em;">
+  <span style="font-size: 1em;"><strong>AI Research Intern</strong> &nbsp;·&nbsp; NXP Automotive Processing &nbsp;·&nbsp; <span style="color: #888;">Summer 2024</span></span><br>
+  <span style="font-size: 0.85em; color: #555;">Conformal prediction for time series forecasting of PCB board aging</span>
+</div>
+
+<div style="margin-bottom: 0.8em;">
+  <span style="font-size: 1em;"><strong>AI Research Intern</strong> &nbsp;·&nbsp; NXP Automotive Processing &nbsp;·&nbsp; <span style="color: #888;">Summer 2023</span></span><br>
+  <span style="font-size: 0.85em; color: #555;">Reliable interval prediction for chip performance</span>
+</div>
 
 
 ## Preprints
