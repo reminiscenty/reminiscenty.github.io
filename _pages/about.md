@@ -15,21 +15,18 @@ Hi, I'm Yuxuan Yin, a Ph.D. candidate in Electrical and Computer Engineering at 
 My research spans agentic AI and reliable deep learning for real-world applications, with hands-on experience in LLM post-training, long-context modeling, and uncertainty quantification. I am the lead author of [ADO-LLM](https://dl.acm.org/doi/abs/10.1145/3676536.3676816), the first LLM-driven agent for automated analog circuit sizing. My work has appeared at ICML, AAAI, ICCAD, DAC, and ISCA.
 
 ---
-📢 I am on the job market and actively seeking full-time opportunities. I am looking for roles where I can leverage my expertise in reliable ML and LLM systems. Feel free to reach out at y_yin [at] ucsb [dot] edu.
+📢 I am on the job market and actively seeking full-time opportunities. I am looking for roles where I can leverage my expertise in reliable agentic AI and ML systems. Feel free to reach out at y_yin [at] ucsb [dot] edu.
 
 
 ## Internship Experience
-* Summer 2025: Software Engineering Intern, Google, Sunnyvale, CA
-  * Research Topic: Large language models for cloud jobs' resource and runtime prediction
-  * Mentor: Shengke Zhou
+* Summer 2025: Software Engineering Intern, Google Cloud
+  * Large language models for cloud jobs' resource and runtime prediction
 
-* Summer 2024: AI Research Intern, NXP Automotive Processing, Austin, TX
-  * Research Topic: Conformal prediction for time series forecasting of PCB board aging
-  * Mentor: Chen He
+* Summer 2024: AI Research Intern, NXP Automotive Processing
+  * Conformal prediction for time series forecasting of PCB board aging
 
-* Summer 2023: AI Research Intern, NXP Automotive Processing, Austin, TX
-  * Research Topic: Reliable interval prediction for chip performance
-  * Mentor: Chen He
+* Summer 2023: AI Research Intern, NXP Automotive Processing
+  * Reliable interval prediction for chip performance
 
 
 ## Preprints
