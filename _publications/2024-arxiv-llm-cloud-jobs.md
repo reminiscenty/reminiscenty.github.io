@@ -1,5 +1,5 @@
 ---
-title: "Large Language Models for EDA Cloud Job Resource and Lifetime Prediction"
+title: "LASER: Language Model Regression for Semi-Structured Workflow Resource and Runtime Estimation"
 collection: publications
 header:
   teaser: pub-arxiv-llm-cloud.png
